@@ -9,17 +9,23 @@ CONFIG += c++17
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    customer.cpp \
     main.cpp \
     buy_sell.cpp \
-    registration.cpp
+    registration.cpp \
+    seller.cpp
 
 HEADERS += \
     buy_sell.h \
-    registration.h
+    customer.h \
+    registration.h \
+    seller.h
 
 FORMS += \
     buy_sell.ui \
-    registration.ui
+    customer.ui \
+    registration.ui \
+    seller.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

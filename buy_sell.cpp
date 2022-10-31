@@ -16,4 +16,3 @@ BUY_SELL::~BUY_SELL()
 {
     delete ui;
 }
-
